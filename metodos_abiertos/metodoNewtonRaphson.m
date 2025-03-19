@@ -19,6 +19,7 @@ fprintf('Iteración |      xi      |     xi+1     | Error Relativo Aproximado\n'
 fprintf('-------------------------------------------------------------------\n');
 
 while f_prima(xi) ~= 0
+    % Calcular xi+1
     xi_sig = xi - f(xi)/f_prima(xi);
 
     % Calcular el error relativo aproximado
