@@ -14,14 +14,14 @@ g_prima = matlabFunction(derivada_sym);
 
 % Definir tolerancia, valor inicial (xi), iteración y error relativo
 tolerancia = 1e-6;
-xi = 0.1; % Cambiamos el valor inicial, porque g'(0) = 1
+xi = 0.1; % Cambiamos el valor inicial, porque |g'(0)| = 1
 iter = 1;
 
 % Formato de impresión
 fprintf('Iteración |      xi      |     xi+1     | Error Relativo Aproximado\n');
 fprintf('-------------------------------------------------------------------\n');
 
-% Mientras cumpla el criterio de convergencia 
+% Mientras cumpla el criterio de convergencia |g'(xi)| < 1
 while abs(g_prima(xi)) < 1
     % Calcular xi+1
     xi_sig = g(xi);
