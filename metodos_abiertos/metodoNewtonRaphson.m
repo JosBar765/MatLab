@@ -37,7 +37,7 @@ while f_prima(xi) ~= 0
         break;
     end
 
-    % Actualiza no. iteración y el valor anterior
+    % Actualiza no. iteración y el valor actual
     iter = iter + 1;
     xi = xi_sig;
 end
