@@ -30,7 +30,7 @@ while f_prima(xi) ~= 0
     end
     
     % Formato de impresión
-    fprintf('%9d | %12.4f | %12.4f | %24.6f\n', iter, xi, xi_sig, error_rel);
+    fprintf('%9d | %12.6f | %12.6f | %24.6f\n', iter, xi, xi_sig, error_rel);
 
     % Verificar convergencia
     if iter > 1 && error_rel < tolerancia
