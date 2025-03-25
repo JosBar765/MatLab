@@ -8,5 +8,5 @@ Cada carpeta está nombrada de acuerdo con la tarea correspondiente y contiene l
 
 ## Authors
 
-- [@JosBar765](https://www.github.com/octokatherine) | Josué Barrios 0901-23-4777
+- [@JosBar765](https://www.github.com/JosBar765) | Josué Barrios 0901-23-4777
 
