@@ -4,5 +4,3 @@ Solucionar problemas de ejecución de los códigos en matlab para los métodos a
 - Secante
 - Raíces múltiples
 - Ecuaciones no lineales
-- Punto fijo
-- Newton Raphson
