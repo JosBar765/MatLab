@@ -1,3 +1,7 @@
+%
+% ERROR ENCONTRADO EN LA LÍNEA 31
+%
+
 clc; clear; close all;
 % Secant Method for f(x) = e^(-x) - x = 0
 
