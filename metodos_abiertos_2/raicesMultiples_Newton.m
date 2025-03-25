@@ -3,6 +3,8 @@
 % CONTENIA NINGÚN ERROR
 %
 
+clc; clear; close all;
+
 % Modified Newton-Raphson Method for f(x) = x^3 - 5x^2 + 7x - 3 = 0 (multiple root)
 
 % Define the function f(x), f'(x), and f''(x)
