@@ -1,4 +1,4 @@
-**Fecha de entrega: 28 de marzo**
+**Fecha de entrega: 28 de marzo de 2025**
 
 Dados los polinomios p(x)=x3−6x2+11x−6 y q(x)=x−1 Realiza las operaciones de suma en MATLAB.
 - Realizar la suma con el ejemplo de código haciendo las modificaciones necesarias.
