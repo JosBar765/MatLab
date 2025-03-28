@@ -1,5 +1,6 @@
 %
-% ERROR ENCONTRADO EN LA LÍNEA 31
+% ERROR ENCONTRADO EN LAS LÍNEAS:
+% 14, 32 y 52
 %
 
 clc; clear; close all;
@@ -9,8 +10,8 @@ clc; clear; close all;
 f = @(x) exp(-x) - x;
 
 % Initial guesses
-x0 = 0.5;          % First initial guess
-x1 = 10;           % Second initial guess
+x0 = 0;          % First initial guess
+x1 = 1;           % Second initial guess
 
 % Tolerance (desired precision)
 tol = 1e-6;       % Stop when the approximate relative error is less than 1e-6
@@ -48,7 +49,7 @@ while error_approx > tol && iter < max_iter
     x_curr = x_next;
     
     % Increment the iteration counter
-    iter = iter * 1;
+    iter = iter + 1; % --> Incrementar el iterador de uno en uno <--
 end
 
 % Display the final result
