@@ -47,7 +47,7 @@ function [fx, error] = interpolacion_lineal(x0, x1, x, fx0, fx1, real)
     fx = fx0 + ((fx1-fx0)/(x1-x0))*(x-x0);
     
     if ~isnan(real)
-        error = abs(100*(fx - real)/fx);
+        error = abs(100*(fx - real)/real);
         fprintf('f(%.2f) = %.6f con un error del %.6f%%', x, fx, error);
     else
         fprintf('f(%.2f) = %.6f', x, fx);
