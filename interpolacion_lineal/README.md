@@ -1,4 +1,4 @@
-**Fecha de entrega: 22 de abril de 2025**
+**Fecha de entrega: 24 de abril de 2025**
 
 Calcular la temperatura a las 14:00 Horas, usando el método de interpolación
 polinomial de Newton en diferencias divididas.Crear un código en matlab
