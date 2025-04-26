@@ -1,0 +1,29 @@
+Inicio del procedimiento newton_interp_3rd_degree(x_points, y_points, x, valor_real)
+    Asignar n ← longitud(x_points)
+    Asignar F ← matriz de ceros de tamaño n x n
+
+    Asignar F(:,1) ← y_points 
+
+    Para j desde 2 hasta n hacer
+        Para i desde 1 hasta n-j+1 hacer
+            Asignar F(i,j) ← (F(i+1,j-1) - F(i,j-1)) / (x_points(i+j-1) - x_points(i))
+        FinPara
+    FinPara
+
+    Asignar y_interp ← F(1,1)
+
+    Para k desde 2 hasta n hacer
+        Asignar term ← F(1,k)
+
+        Para m desde 1 hasta k-1 hacer
+            Asignar term ← term * (x - x_points(m))
+        FinPara
+
+        Asignar y_interp ← y_interp + term
+    FinPara
+
+    Asignar error ← valor absoluto de ((y_interp - valor_real) / valor_real) * 100
+
+    Escribir "Resultado de la interpolación (y_interp):", y_interp
+    Escribir "Porcentaje de error:", error
+Fin del procedimiento
