@@ -1,0 +1,21 @@
+Inicio del procedimiento Interpolacion_Lagrange(x_points, y_points, x, valor_real)
+    Asignar n ← longitud(x_points) - 1
+    Asignar y_interp ← 0
+
+    Para i desde 0 hasta n hacer
+        Asignar L ← 1
+        
+        Para j desde 0 hasta n hacer
+            Si j ≠ i entonces
+                Asignar L ← L * (x - x_points[j]) / (x_points[i] - x_points[j])
+            FinSi
+        FinPara
+        
+        Asignar y_interp ← y_interp + y_points[i] * L
+    FinPara
+
+    Asignar error ← valor absoluto de ((y_interp - valor_real) / valor_real) * 100
+
+    Mostrar "Resultado de la interpolación (y_interp):", y_interp
+    Mostrar "Porcentaje de error:", error
+Fin del procedimiento
