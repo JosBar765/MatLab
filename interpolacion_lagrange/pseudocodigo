@@ -16,6 +16,6 @@ Inicio del procedimiento Interpolacion_Lagrange(x_points, y_points, x, valor_rea
 
     Asignar error ← valor absoluto de ((y_interp - valor_real) / valor_real) * 100
 
-    Mostrar "Resultado de la interpolación (y_interp):", y_interp
-    Mostrar "Porcentaje de error:", error
+    Escribir "Resultado de la interpolación (y_interp):", y_interp
+    Escribir "Porcentaje de error:", error
 Fin del procedimiento
