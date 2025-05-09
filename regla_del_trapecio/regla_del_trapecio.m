@@ -1,6 +1,7 @@
 clc; clear; close all;
 
-metodo_trapecio(6);
+n = input('Ingrese el valor de n: ');
+metodo_trapecio(n);
 
 %-------------------------------------------------------------------------%
 
