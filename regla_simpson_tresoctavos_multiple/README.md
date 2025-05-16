@@ -1,3 +1,4 @@
+**Fecha de entrega: 15 de mayo de 2025**
 Aplique la regla de Simpson 3/8 de aplicación múltiple para estimar la integral f(x) = 1+2x−3x2+4x3−5x4+6x5
 desde a = 0 hasta b = 1. El valor exacto de la integral se puede determinar en Matlab.
 - Solucionar de forma manual
