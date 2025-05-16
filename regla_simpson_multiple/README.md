@@ -6,4 +6,5 @@ Realizar en matlab la solución, el programa debe mostrar lo siguientes resultad
 - Valor medio de la cuarta derivada (media_f4 = integral(f4, a, b) / (b - a);)
 - Error de truncamiento estimado
 - Error relativo porcentual
+
 Entregar código o repositorio, capturas de ejecución en classroom
